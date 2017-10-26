@@ -1,0 +1,173 @@
+body{
+    margin:0px auto;
+}
+
+.header{
+height: 75px;
+width:1366px;
+background-color: rgba(189, 10, 10, 0.774);
+}
+
+#logo{
+height: 75px;
+float: left;
+}
+
+
+#loginimage{
+    height: 75px;
+    float: right;
+    width: 75px;
+    }
+#loginname{
+   
+   float: right;  
+   width: 130px;
+   height: 50px;
+   margin-top: 23px;
+   margin-right: 8px;
+}
+#logindrop{  
+    float: right;  
+    width: 16px;
+    height: 11px;
+    margin-top: 28px;
+    margin-right: 10px;
+ }
+ #loginmail{   
+    float: right;
+    width: 27px;
+    height: 15px;
+    margin-top: 49px;
+    margin-right: 8px;
+ }
+
+ #username{
+    color: white;
+    float: right;
+    font-size: 17px;
+ }
+
+.sidebar{
+	float:left;
+	width:70px;
+	height:585px;
+    background-color:rgb(14, 154, 235);
+
+}
+
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow: auto;
+}
+#img1{
+	height:68px;
+	width:70px;
+	margin: -1px;
+	opacity: 0.5;
+}
+#img1:hover ,nav ul li a:hover{
+	opacity:1;
+}
+#index .link1,#page1 .link2, #page2 .link3, #page3 .link4{
+         opacity:1;
+}
+
+#container{
+	width:1366px;
+    margin:0px auto;
+    height:585px;
+}
+
+.main1{
+	float:left;
+   width:630px;	 
+   height:585px;
+   background-color:white;
+}
+.main2{
+	float:left;
+    width:666px;	 
+   height:585px;
+   background-color:white;
+   
+}
+
+.main3{
+    float:left;
+    width:1296px;	 
+   height:585px;
+   background-color:white; 
+}
+
+#navbar{
+    background-color: black;
+    height: 40px;
+}
+
+nav ul {
+ list-style: none;
+
+}
+nav ul li a{
+float: left;
+color: white;
+text-decoration: none;
+padding: 0 40px;
+line-height: 40px;
+opacity: 0.5; 
+}
+
+nav ul li a.active {
+    opacity: 1;
+}
+
+#page2 .link5, #page6 .link6{
+    opacity:1;
+    border-bottom: 3px solid red;
+}
+
+.logisticpage{
+
+    padding-left: 80px;
+    padding-top: 8px;
+}
+#headding{
+    padding: 40px;
+}
+#selecttag{
+
+    width: 200px;
+    height: 18px;
+    margin-right: 26px!important;
+}
+#selecttag1, #selecttag2,#selecttag3{
+
+    width: 204px!important;
+    height: 25px;
+    float: right;
+    margin-right: 26px;
+}
+
+#Description_div{
+    display:inline-flex;
+}
+
+
+
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+.w3-button{border:none;border-radius: 7px;
+    width: 83px;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;
+    text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;
+    white-space:nowrap}
+
+.w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.w3-light-blue,.w3-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.w3-brown,.w3-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.w3-cyan,.w3-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.w3-blue-grey,.w3-hover-blue-grey:hover,.w3-blue-gray,.w3-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.w3-display-bottomleft{position:absolute;left:0;bottom:0}
+.w3-display-bottomrightw3-display-bottomright{position:absolute;right:0;bottom:0}
