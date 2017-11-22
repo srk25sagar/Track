@@ -5,6 +5,8 @@
 	<link type="text/css"  rel="stylesheet" href="style.css">
 	<style> 
 </style>
+<script type="text/javascript" src="trackjava.js"></script>
+
 </head>
 <body id="page6">
 
@@ -47,10 +49,10 @@
         <div style=" margin-bottom: 10px;margin-left: -39px;">
         <h3> Provide Package Details</h3>
     </div>
-        <form >
+        <form name="myform">
                 <div style=" margin-bottom: 10px; display: inline-flex; ">
                         <div style=" width: 329px;    margin-right: 20px;">
-                                <label style=" float: left; " >  Order Name : </label>  <input style=" float: right; "type="text" name="" value="" id="selecttag"> 
+                                <label style=" float: left; " >  Order Name : </label>  <input style=" float: right; "type="text" name="Ordername" value="" id="selecttag"> 
                         </div>
                         <div style=" width: 329px; ">
                                 <label style="color: red;">  Oreder ID : </label> <label> 123456789 </label>
@@ -97,13 +99,13 @@
                  
                  <div  style=" margin-bottom: 10px; display: inline-flex; ">
                         <div style=" width: 329px;    margin-right: 20px;" >
-                                <label style="margin-left: 26px;">  Address : </label> <input style=" float: right; "type="text" name="" value="" id="selecttag">
+                                <label style="margin-left: 26px;">  Address : </label> <input style=" float: right; "type="text" name="Address" value="" id="selecttag">
                         </div>
                         <div style=" width: 329px;        margin-left: -19px; margin-right: 20px;" >
-                                <label style="margin-left: 26px;">  Address : </label> <input style=" float: right; "type="text" name="" value="" id="selecttag">
+                                <label style="margin-left: 26px;">  Address : </label> <input style=" float: right; "type="text" name="Address1" value="" id="selecttag">
                         </div>
                         <div style=" width: 329px; margin-right: 20px;" >
-                                <label style="margin-left: 11px;">  Item Count : </label> <input style=" float: right; "type="text" name="" value="" id="selecttag">
+                                <label style="margin-left: 11px;">  Item Count : </label> <input style=" float: right; "type="number" name="ItemCount" value="" id="selecttag">
                         </div>
                             
 
@@ -116,7 +118,7 @@
                  
                  <div id="buttons" class=" w3-display-bottomright"  style=" margin: 14px 14px; float: right; margin-right: 232px; ">
                         <button class="w3-button w3-red w3-round-large">Clear</button>
-                        <button class="w3-button w3-blue w3-round-large">Save</button>
+                        <button class="w3-button w3-blue w3-round-large" onclick="validate()">Save</button>
                     </div>
                  </form>
         

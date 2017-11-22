@@ -1,5 +1,7 @@
 body{
     margin:0px auto;
+    font-family:Roboto;
+    font-size: 15px;
 }
 
 .header{
@@ -45,7 +47,7 @@ float: left;
  #username{
     color: white;
     float: right;
-    font-size: 17px;
+    /*font-size: 17px;*/
  }
 
 .sidebar{
